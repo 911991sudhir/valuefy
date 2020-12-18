@@ -1,0 +1,193 @@
+
+
+
+
+/* XS Extra small devices (portrait phones, less than 576px) mobile first*/
+@media (max-width: 575.98px) { 
+	.navbarleft > img{
+		margin-left: 30px;
+		max-width: 80px;
+	}	
+	.heading{
+		font-size: 20px;
+	}
+	.headingwrap{
+		line-height: 25px;
+	}
+	.headingsubtxt {
+		    font-size: 10px;
+	}
+	.cttxt{
+		font-size: 30px;
+	}
+	.cttxtsub{
+		font-size: 12px;		
+	}
+	.figcap{
+		text-align: center;
+	}	
+	.labelcont > p:nth-child(1) {
+		font-size: 12px;
+		line-height: 20px;
+	}
+	.labelcont > .row >p{
+		font-size: 9px;
+	}
+	.labelcontico::before {
+		content: " ";
+		width: 7px;
+		height: 7px;
+		background-color: #14a388;
+		border-radius: 10px;
+		position: absolute;
+		margin-left: -15px;
+		margin-top: 11px;
+	}
+	.submitbtn {
+		font-size: 20px;
+	}
+	.imgcir{
+		max-width: 250px;
+	}
+ }
+ 
+ @media (max-width: 320px) { 	
+	.heading{
+		font-size: 12px;
+	}
+	.labelcontico::before {
+		content: " ";
+		width: 5px;
+		height: 5px;
+		background-color: #14a388;
+		border-radius: 10px;
+		position: absolute;
+		margin-left: -10px;
+		margin-top: 12px;
+	}
+	.submitbtn {
+		font-size: 15px;
+	}
+	.imgcir{
+		max-width: 170px;
+	}
+	.labelcont > .row >p {
+		font-size: 7px;
+	}
+ }
+
+ /* SM Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+	.heading{
+		font-size: 25px;
+	}	
+	.headingwrap{
+		line-height: 28px;
+	}
+	.headingsubtxt {
+		    font-size: 12px;
+	}
+	.cttxt{
+		font-size: 30px;
+	}
+	.cttxtsub{
+		font-size: 12px;		
+	}
+	.figcap{
+		text-align: center;
+	}
+	.labelcont > p:nth-child(1) {
+		font-size: 15px;
+	}
+	.labelcont > .row >p{
+		font-size: 12px;
+	}
+ }
+
+/*  MD Medium devices (tablets, 768px and up)*/ 
+@media (min-width: 768px) { 
+	.heading{
+		font-size: 25px;
+	}
+	.fifthelement .ctfield {
+		float: none;
+		margin-top: 20px;
+	}
+	.figcap{
+		text-align: center;
+	}
+	.submitbtn {
+		font-size: 25px;
+	}
+ }
+
+/*  LG Large devices (desktops, 992px and up) */
+@media (min-width: 992px)    { 		
+	.heading{
+		font-size: 25px;
+	}
+	.fifthelement .ctfield {
+		float: left;
+		margin-top: 0px;
+	}
+	.cttxt{
+		font-size: 30px;
+	}
+	.cttxtsub{
+		font-size: 12px;	
+	}	
+	.labelcont  > row > p{
+		font-size: 12px;	
+	}
+	.imgcir {
+		max-width: 200px;
+	}
+	.figcap{
+		text-align: left;
+	}
+	.labelcont > p:nth-child(1) {
+		font-size: 15px;
+	}
+	.labelcont > .row >p{
+		font-size: 12px;
+	}
+ }
+
+/*  XL Extra large devices (large desktops, 1200px and up) desktops second*/ 
+@media (min-width: 1200px) { 	
+	.heading{
+		font-size: 35px;
+	}
+	.headingwrap {
+		line-height: 30px;
+	}
+	.labelcont > p:nth-child(1) {
+		font-size: 19px;
+	}
+	.labelcont > .row >p{
+		font-size: 13px;
+	}
+ }
+ 
+ /*  (larger desktops, 1400px and up)*/ 
+@media (min-width: 1400px) { 
+	.heading{
+		font-size: 45px;
+	}
+	.headingwrap {
+		line-height: 35px;
+	}
+	.imgcir {
+		max-width: 300px;
+	}
+ }
+ 
+ /*  (largest desktops, 1600px and up)*/ 
+@media (min-width: 1600px) { 
+	.heading{
+		font-size: 55px;
+	}
+	.headingwrap {
+		line-height: 43px;
+	}	
+ }
